@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    
 }
 
 body {
@@ -390,4 +391,8 @@ h5 span {
 .pic-recent{
     margin: 10px;
     width: 450px;
+}
+.rct h1{
+    margin-left: 160px;
+    font-size: 40px;
 }
