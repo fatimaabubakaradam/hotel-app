@@ -297,8 +297,8 @@ h5 span {
 }
 
 .room1 img {
-    width: 100%; /* Make the image take up the full width of the card */
-    border-radius: 10px; /* Same rounded corners for the image */
+    width: 100%; 
+    border-radius: 10px; 
 }
 
 .rate {
