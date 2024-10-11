@@ -163,20 +163,18 @@ h2{
     width: 50%; /* Adjust the width of the smaller icon based on your design */
     height: auto;
 }
-
-/* Specific classes for other images */
 .image-wrapper {
     position: relative;
 }
 
 .ellipse {
-    width: 100px; /* Adjust based on your design */
-    height: 100px; /* Adjust based on your design */
+    width: 100px; 
+    height: 100px; 
     object-fit: cover;
 }
 
 .support {
-    width: 50px; /* Adjust based on your design */
+    width: 50px; 
     height: auto;
 }
 
