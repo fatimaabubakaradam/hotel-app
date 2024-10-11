@@ -181,19 +181,18 @@ h2{
 }
 
 .payment {
-    width: 50px; /* Adjust based on your design */
+    width: 50px; 
     height: auto;
 }
 
-/* .ellipse, .payment, .support {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-} */
-
-/* For other containers */
-.container2, .image-container2 {
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.image-container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,17 +202,14 @@ h2{
 .payy{
     background-color: blue;
 }
-/* Ensure that the text stays inline */
+
 .header {
     display: flex;
-    align-items: center; /* Vertically aligns items to the center */
-    justify-content: space-between; /* Ensures space between the menu, title, and icon */
+    align-items: center; 
+    justify-content: space-between; 
     padding: 10px 20px;
-    
-    width: 100%; /* Ensure it stretches across the width of the page */
+    width: 100%; 
 }
-
-/* The menu should align to the left */
 .menu-container {
     display: flex;
     justify-content: flex-start;
