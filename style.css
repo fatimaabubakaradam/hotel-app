@@ -247,10 +247,8 @@ h2{
 .logo {
     color: blue;
 }
-
-/* Adjust the sizes of the icons */
 .menu, .icon {
-    width: 24px; /* Adjust based on the design */
+    width: 24px; 
     height: auto;
 }
 .rate{
@@ -261,7 +259,7 @@ h2{
 .room1 img {
     align-items: center;
     margin-left: 10px;
-    border: 30px solid #ffffff48; /* Add a white border with a 5px width */
+    border: 30px solid #ffffff48;
 }
 
 .Special h1{
