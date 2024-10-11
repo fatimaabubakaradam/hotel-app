@@ -314,17 +314,16 @@ h5 span {
 }
 
 .room-details1 h5 span {
-    color: #4CAF50; /* Set the price color */
+    color: #4CAF50; 
     font-weight: bold;
 }
 .time{
     display: flex;
     justify-content: space-between;
 }
-/* Container max width */
 .conn {
     max-width: 600px;
-    margin: 0 auto; /* Center the content */
+    margin: 0 auto; 
     padding: 5px;
 }
 .top-content {
