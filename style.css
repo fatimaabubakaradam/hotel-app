@@ -358,15 +358,15 @@ h5 span {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the vector inside the round image */
-    width: 12px; /* Adjust size of vector icon */
+    transform: translate(-50%, -50%); 
+    width: 12px; 
     height: 12px;
 }
 
 .round-image {
     width: 30px;
     height: 30px;
-    border-radius: 50%; /* Make it a circle */
+    border-radius: 50%; 
 }
 
 .time {
