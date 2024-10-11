@@ -218,18 +218,14 @@ h2{
     display: flex;
     justify-content: flex-start;
 }
-
-/* The icon should align to the right */
 .icon-container {
     display: flex;
     justify-content: flex-end;
 }
-
-/* Ensure that the h1 text is centered */
 .head {
-    flex-grow: 1; /* Make sure the heading takes the remaining space */
+    flex-grow: 1; 
     display: flex;
-    justify-content: center; /* Centers the heading */
+    justify-content: center; 
     text-align: center;
 }
 
