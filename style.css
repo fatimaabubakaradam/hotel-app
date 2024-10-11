@@ -287,13 +287,12 @@ h5 span {
     transform: translateY(-80%);
 }
 .card {
-    border: 2px ; /* Set the border color */
-    border-radius: 10px; /* Make the corners rounded */
-    padding: 10px; /* Add space inside the border */
-    width: 400px; /* Set the width of the card */
-    margin: 20px auto; /* Center the card and add spacing around it */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
-    background-color: #ffffffa8; /* Add a background color */
+    border: 2px ; 
+    border-radius: 10px;
+    padding: 10px; 
+    width: 400px; 
+    margin: 20px auto; 
+    background-color: #ffffffa8; 
 }
 
 .room1 img {
