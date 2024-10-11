@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #FFFF;
 }
 
 .hero {
@@ -125,7 +125,7 @@ transform: translateX(-250% );
     transform: translateX(-200%);
 } */
 .section-two{
-    background-color: beige;
+    background-color: #a3a3a3;
     text-align: center;
     transform: translateY(-5%);
 }
@@ -431,4 +431,7 @@ font-weight: 300;
 }
 .review h1{
     font-size: 40px;
+}
+.footer{
+    background-color: #a3a3a3;
 }
