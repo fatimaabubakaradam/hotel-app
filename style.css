@@ -1,9 +1,10 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
     
 }
 
@@ -26,9 +27,8 @@ body {
 }
 
 .image-container .rec {
-    width: 500px;
-    height: 500px;
-    
+    width: 450px;
+    height: 450px
 }
 
 .text-container {
@@ -52,20 +52,29 @@ body {
     line-height: 1.5;
     margin: 15px 0;
 }
-
-.search {
+.last{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-150%);
     position: relative;
-    margin-top: 20px;
-    max-width: 300px;
 }
 
-.search {
-    width: 300px;
-    height: 50px;
-    border-radius: 25px;
-    object-fit: contain;
+.section-two{
+    transform: translateY(-10%);
 }
-
+.your{
+    transform: translateY(20%);
+    color: red;
+}
+.your span{
+    color: blue;
+}
+.where{
+    margin-left: 10px;
+}
+.found{
+    margin-right: 20px;
+}
 .angle {
     height: 100px;
     border-radius: 25px;
@@ -87,7 +96,7 @@ body {
     align-items: center;
     width: 280px;
     height: 30px;
-    /* transform: translateY(30%); */
+
 }
 
 .icon-locc .rightloc, .icon-locc .leftloc {
@@ -101,33 +110,10 @@ body {
 .icon-locc .leftloc {
     right: 20px;
 }
-/* .header {
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
-    justify-content: space-between;
-} */
-
-/* .head h1 {
-    color: red;
-    font-size: 50px;
-}
-
-.head span.logo {
-    color: blue;
-    font-weight: bold;
-} */
-/* .menu{
-padding-top: -100px;
-transform: translateX(-250% );
-}
-.icon{
-    transform: translateX(-200%);
-} */
 .section-two{
     background-color: #a3a3a3;
     text-align: center;
-    transform: translateY(-5%);
+    transform: translateY(-15%);
 }
 h1, p {
     margin-bottom: 60px;
@@ -135,8 +121,29 @@ h1, p {
 h2{
     margin-bottom: 30px;
 }
-/* Container for image and content */
-.container1, .container2, .image-container1, .image-container2 {
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.container2  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.image-container1  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.image-container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,12 +295,12 @@ h5 span {
     transform: translateY(-80%);
 }
 .card {
-    border: 2px ; 
+    border: 10px ; 
     border-radius: 10px;
     padding: 10px; 
     width: 400px; 
     margin: 20px auto; 
-    background-color: #ffffffa8; 
+    background-color: #f8f5f5f4; 
 }
 
 .room1 img {
