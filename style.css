@@ -316,3 +316,7 @@ h5 span {
     color: #4CAF50; /* Set the price color */
     font-weight: bold;
 }
+.time{
+    display: flex;
+    justify-content: space-between;
+}
