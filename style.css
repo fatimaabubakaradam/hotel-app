@@ -415,3 +415,20 @@ font-weight: 300;
 
     width: 600px;
 }
+.section-three{
+    text-align: center;
+}
+
+
+.container img {
+    max-width: 100px; /* Adjust image size */
+    margin: 20px 0;
+}
+
+.p {
+    max-width: 400px; /* Adjust width based on your design */
+    margin: 0 auto;
+}
+.review h1{
+    font-size: 40px;
+}
