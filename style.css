@@ -252,4 +252,67 @@ h2{
     width: 24px; /* Adjust based on the design */
     height: auto;
 }
+.rate{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-700%);
+}
+.room1 img {
+    align-items: center;
+    margin-left: 10px;
+    border: 30px solid #ffffff48; /* Add a white border with a 5px width */
+}
 
+.Special h1{
+    margin-left: 150px;
+}
+.num{
+    margin-left: 50px;
+}
+.heart{
+    margin-right: 50px;
+}
+h4 {
+    font-size: 0.8rem;
+}
+h5 span {
+    font-weight: bold;
+    font-size: 1em;
+    color: blue;
+
+}
+.room-details1{
+    margin-left: 60px;
+    transform: translateY(-80%);
+}
+.card {
+    border: 2px ; /* Set the border color */
+    border-radius: 10px; /* Make the corners rounded */
+    padding: 10px; /* Add space inside the border */
+    width: 400px; /* Set the width of the card */
+    margin: 20px auto; /* Center the card and add spacing around it */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    background-color: #ffffffa8; /* Add a background color */
+}
+
+.room1 img {
+    width: 100%; /* Make the image take up the full width of the card */
+    border-radius: 10px; /* Same rounded corners for the image */
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.room-details1 h3, 
+.room-details1 h4, 
+.room-details1 h5 {
+    margin: 5px 0;
+}
+
+.room-details1 h5 span {
+    color: #4CAF50; /* Set the price color */
+    font-weight: bold;
+}
