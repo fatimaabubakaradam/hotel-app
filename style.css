@@ -371,18 +371,14 @@ h5 span {
 
 .time {
     font-size: 14px;
-    margin-left: 5px; /* Space between clock and time text */
-    color: #555; /* Adjust the color */
+    margin-left: 5px; 
+    color: #555; 
 }
-
-/* Trip title styling */
 .tripp h1 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
 }
-
-/* City description */
 .cityy p {
     font-size: 16px;
     line-height: 1.6;
@@ -421,12 +417,12 @@ font-weight: 300;
 
 
 .container img {
-    max-width: 100px; /* Adjust image size */
+    max-width: 100px; 
     margin: 20px 0;
 }
 
 .p {
-    max-width: 400px; /* Adjust width based on your design */
+    max-width: 400px; 
     margin: 0 auto;
 }
 .review h1{
