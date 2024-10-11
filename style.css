@@ -327,8 +327,6 @@ h5 span {
     margin: 0 auto; /* Center the content */
     padding: 5px;
 }
-
-/* Align date and time on the same line */
 .top-content {
     display: flex;
     justify-content: space-between;
@@ -338,10 +336,8 @@ h5 span {
 
 .date {
     font-size: 14px;
-    color: #333; /* Adjust the color */
+    color: #333; 
 }
-
-/* Clock and time layout */
 .clock {
     display: flex;
     align-items: center;
@@ -351,9 +347,8 @@ h5 span {
     position: relative;
     width: 30px;
     height: 30px;
-    margin-right: 10px; /* Add space between the clock and text */
+    margin-right: 10px; 
 }
-
 .vec1 {
     position: absolute;
     top: 50%;
