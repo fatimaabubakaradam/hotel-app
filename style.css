@@ -144,23 +144,41 @@ h2{
     margin-bottom: 30px;
 }
 
-/* Aligning text in the sections */
-.method, .simple, .hours, .nice {
+.method {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.simple {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hours {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nice {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Ellipse and the smaller image inside it */
 .Ellipse {
     position: relative;
 }
 
-.payment, .support {
+.payment {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%; /* Adjust the width of the smaller icon based on your design */
+    width: 50%; 
+    height: auto;
+}
+.support {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
     height: auto;
 }
 .image-wrapper {
