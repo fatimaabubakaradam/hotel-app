@@ -1,0 +1,255 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container .rec {
+    width: 500px;
+    height: 500px;
+    
+}
+
+.text-container {
+    position: absolute;
+    top: 30%;
+    left:35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+.search {
+    position: relative;
+    margin-top: 20px;
+    max-width: 300px;
+}
+
+.search {
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: contain;
+}
+
+.angle {
+    height: 100px;
+    border-radius: 25px;
+    max-width: 600px;
+}
+.Support1{
+    transform: translateY(-150%);
+}
+.Support2{
+    transform: translateY(-150%);
+}
+.icon-locc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, 400%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 30px;
+    /* transform: translateY(30%); */
+}
+
+.icon-locc .rightloc, .icon-locc .leftloc {
+    position: absolute;
+}
+
+.icon-locc .rightloc {
+    left: 20px;
+}
+
+.icon-locc .leftloc {
+    right: 20px;
+}
+/* .header {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-between;
+} */
+
+/* .head h1 {
+    color: red;
+    font-size: 50px;
+}
+
+.head span.logo {
+    color: blue;
+    font-weight: bold;
+} */
+/* .menu{
+padding-top: -100px;
+transform: translateX(-250% );
+}
+.icon{
+    transform: translateX(-200%);
+} */
+.section-two{
+    background-color: beige;
+    text-align: center;
+    transform: translateY(-5%);
+}
+h1, p {
+    margin-bottom: 60px;
+}
+h2{
+    margin-bottom: 30px;
+}
+/* Container for image and content */
+.container1, .container2, .image-container1, .image-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Aligning text in the sections */
+.method, .simple, .hours, .nice {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Ellipse and the smaller image inside it */
+.Ellipse {
+    position: relative;
+}
+
+.payment, .support {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Adjust the width of the smaller icon based on your design */
+    height: auto;
+}
+
+/* Specific classes for other images */
+.image-wrapper {
+    position: relative;
+}
+
+.ellipse {
+    width: 100px; /* Adjust based on your design */
+    height: 100px; /* Adjust based on your design */
+    object-fit: cover;
+}
+
+.support {
+    width: 50px; /* Adjust based on your design */
+    height: auto;
+}
+
+.payment {
+    width: 50px; /* Adjust based on your design */
+    height: auto;
+}
+
+/* .ellipse, .payment, .support {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* For other containers */
+.container2, .image-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.payy{
+    background-color: blue;
+}
+/* Ensure that the text stays inline */
+.header {
+    display: flex;
+    align-items: center; /* Vertically aligns items to the center */
+    justify-content: space-between; /* Ensures space between the menu, title, and icon */
+    padding: 10px 20px;
+    
+    width: 100%; /* Ensure it stretches across the width of the page */
+}
+
+/* The menu should align to the left */
+.menu-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* The icon should align to the right */
+.icon-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Ensure that the h1 text is centered */
+.head {
+    flex-grow: 1; /* Make sure the heading takes the remaining space */
+    display: flex;
+    justify-content: center; /* Centers the heading */
+    text-align: center;
+}
+
+/* Remove default margins */
+.head h1 {
+    margin: 0; /* Removes any default margin */
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+/* Styling for the logo */
+.logo {
+    color: blue;
+}
+
+/* Adjust the sizes of the icons */
+.menu, .icon {
+    width: 24px; /* Adjust based on the design */
+    height: auto;
+}
+
