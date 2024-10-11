@@ -233,17 +233,12 @@ h2{
     text-align: center;
 }
 
-/* Remove default margins */
 .head h1 {
-    margin: 0; /* Removes any default margin */
+    margin: 0; 
     font-size: 30px;
     font-weight: bold;
     color: red;
 }
-
-
-
-/* Styling for the logo */
 .logo {
     color: blue;
 }
