@@ -1,7 +1,7 @@
 # hotel-app
 
  # Hotel App (Mobile View) 
-Welcome to the Hotel Website project! This repository contains the mobile-only implementation of our hotel website, designed with HTML, CSS, and JavaScript to deliver a seamless and interactive user experience for guests accessing the site on mobile devices.
+Welcome to the Hotel App project! This repository contains the mobile-only implementation of our hotel App, designed with HTML, CSS, and JavaScript to deliver a seamless and interactive user experience for guests accessing the site on mobile devices.
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ Welcome to the Hotel Website project! This repository contains the mobile-only i
   - [Author(s)](#authors)
 
 ## Introduction
-The Hotel Website is a mobile-first platform designed to showcase the hotel's rooms, services, and amenities. Built with HTML, CSS, and JavaScript, it ensures smooth interaction and navigation, offering a streamlined experience for mobile users. The website is ideal for guests who want to browse and book their stay directly from their smartphones.
+The Hotel App is a mobile-first platform designed to showcase the hotel's rooms, services, and amenities. Built with HTML, CSS, and JavaScript, it ensures smooth interaction and navigation, offering a streamlined experience for mobile users. The website is ideal for guests who want to browse and book their stay directly from their smartphones.
 
 ## Live Demo
 Check out the live demo of the project:  https://fatimaabubakaradam.github.io/hotel-website/
@@ -54,12 +54,12 @@ To get started with the Hotel Website, follow these steps:
 
 bash
 Copy code
-git clone https://github.com/fatimaabubakaradam/hotel-website.git
+git clone https://github.com/fatimaabubakaradam/hotel-App.git
 
 2. **Navigate to the Project Directory:**
 bash
 Copy code
-cd hotel-website
+cd hotel-App
 
 4. **Open in a Browser:**
 
@@ -71,7 +71,7 @@ open index.html
 Or simply double-click the index.html file to open it in your browser.
 
  ## Usage
-This website is designed exclusively for mobile use. Key features include:
+This App is designed exclusively for mobile use. Key features include:
 
 **Mobile Navigation**: Optimized for touch-screen devices, ensuring ease of use.
 
@@ -79,7 +79,7 @@ This website is designed exclusively for mobile use. Key features include:
 
 **Responsive Design**: Adapted for different mobile screen sizes, ensuring consistency across devices.
 
-For the best experience, open the website on a mobile browser. It is designed to function smoothly on most modern smartphones with a screen  of 600 pixels .
+For the best experience, open the App on a mobile browser. It is designed to function smoothly on most modern smartphones with a screen  of 600 pixels .
 
 **Screenshots**
 
