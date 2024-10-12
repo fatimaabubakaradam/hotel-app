@@ -52,6 +52,19 @@ body {
     line-height: 1.5;
     margin: 15px 0;
 }
+.list{
+    transform: translateY(-50%);
+}
+.head1{
+
+padding-left: 50px;
+transform: translateY(-40%);
+color: red;
+}
+.icon-container1{
+    transform: translateY(-420%);
+    margin-left: 250px;
+}
 .last{
     display: flex;
     justify-content: space-between;
@@ -431,4 +444,53 @@ font-weight: 300;
 }
 .footer{
     background-color: #a3a3a3;
+}
+/* Basic styling for header */
+
+
+/* Hidden menu content */
+#navMenu {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    width: 1200px;
+    height: 500px;
+}
+
+#navMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navMenu ul li {
+    margin: 10px 0;
+}
+
+#navMenu .social-icons img {
+    margin-right: 10px;
+}
+
+/* Show menu when active */
+#navMenu.active {
+    display: flex;
+}
+
+/* Style for the close icon (×) */
+#closeMenu {
+    font-size: 30px;
+    cursor: pointer;
+    /* align-self: flex-end;
+    margin-bottom: 20px; */
+}
+/* Increase size of the hamburger menu */
+#menuToggle {
+    width: 40px; /* Adjust the width */
+    height: 40px; /* Adjust the height */
+    cursor: pointer; /* Add a pointer cursor for better UX */
+}
+#menuToggle.active {
+    width: 100px;
+    height: 100px;
 }

@@ -10,7 +10,7 @@
     <header class="header">
         <div class="header">
             <div class="menu-container">
-                <img src="asset/menu.svg" class="menu" alt="Menu">
+                <img src="asset/menu.svg" class="menu" id="menuToggle" alt="Menu">
             </div>
             <div class="head">
                 <h1><span class="logo">YOUR</span> .LOGO</h1>
@@ -19,7 +19,32 @@
                 <img src="asset/icon (2).svg" class="icon" alt="Icon">
             </div>
         </div>
+    
+        <!-- Hidden Menu -->
+        <nav id="navMenu" class="hidden">
+            <span id="closeMenu">&times;</span> 
+            <div class="head1">
+                <h1><span class="logo">YOUR</span> .LOGO</h1>
+            </div>
+            <div class="icon-container1">
+                <img src="asset/icon (2).svg" class="icon" alt="Icon">
+            </div>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="social-iconss">
+                <img src="asset/Phone_black.svg" alt="Phone">
+                <img src="asset/Facebook_black.svg" alt="Facebook">
+                <img src="asset/Youtube.svg" alt="YouTube">
+                <img src="asset/Instagram_black.svg" alt="Instagram">
+                <img src="asset/Telegram_black.svg" alt="Telegram">
+            </div>
+        </nav>            
     </header>
+    
     <section class="hero">
         <div class="image-container">
             <img src="asset/Rectangle 5 (2).svg" class="rec" alt="">
@@ -37,213 +62,16 @@
             </div>
         </div>
     </section>
-    <section class="section-two">
-        <h1>Why choose us</h1>
-        <p>The main reason is because our<br> competitors have disgusting<br> sites, but we can't write that<br> here, so the text here will be<br> different</p>
-        <div class="container1">
-            
-                <img src="asset/Ellipse 2.svg" class="Ellipse" alt="Ellipse">
-                <img src="asset/payment.svg"  class="Support2"  alt="Payment">
-            
-        </div>
-        <div class="method">
-            <h1>Payment Method</h1>
-            <p>We have a lot of them,<br> from cryptocurrencies to barter for potatoes</p>
-        </div>
-        <div class="container2">
-            
-                <img src="asset/Ellipse 2.svg" class="Ellipse1"   alt="Ellipse">
-                <img src="asset/searching 2.svg" class="Support1" alt="payment">
-            
-        </div>
-        <div class="simple">
-            <h2>Simple Search Process</h2>
-            <p>We checked it out, even the kids did it,<br> but it is my mom's friend's son</p>
-        </div>
-        <div class="image-container1">
-            <div class="image-wrapper">
-                <img src="asset/Ellipse 2.svg" alt="Ellipse" class="ellipse">
-                <img src="asset/support.svg" alt="Support" class="support">
-            </div>
-        </div>
-        <div class="hours">
-            <h1>24/7 Support</h1>
-            <p>Is there something you don't<br> understand? Feel free to call us.<br> Phone number is in the footer.</p>
-        </div>
-        <div class="image-container2">
-            <div class="image-wrapper">
-                <img src="asset/Ellipse 2.svg" alt="Ellipse" class="ellipse">
-                <img src="asset/nice.svg" alt="Support" class="support">
-            </div>
-        </div>
-        <div class="nice">
-            <h1>We are Nice</h1>
-            <p>Fantasy is over, there will be something,<br> really convincing here</p>
-        </div>
+    <section class="section-two" id="sectionContainer">
     </section>
-    <section>
-         <div class="Special">
-            <h1>Special offer</h1>
-            <div class="card">
-                <div class="room1">
-                    <img src="asset/room1.svg" alt="Room Image">
-                </div>
-                <div class="rate">
-                    <img src="asset/rating.svg" class="num" alt="Rating">
-                    <img src="asset/heart.svg" class="heart" alt="Favorite">
-                </div>
-                <div class="room-details1">
-                    <h3>Wilderness Club at Big Cedder</h3>
-                    <h4>24 October - 1 November</h4>
-                    <h5><span>$2016</span> / 6 nights</h5>
-                </div>
-            </div>
-            <div class="card">
-                <div class="room1">
-                    <img src="asset/room2.svg" alt="Room Image">
-                </div>
-                <div class="rate">
-                    <img src="asset/rating.svg" class="num" alt="Rating">
-                    <img src="asset/heart.svg" class="heart" alt="Favorite">
-                </div>
-                <div class="room-details1">
-                    <h3>Wilderness Club at Big Cedder</h3>
-                    <h4>24 October - 1 November</h4>
-                    <h5><span>$2016</span> / 6 nights</h5>
-                </div>
-            </div>
-            <div class="card">
-                <div class="room1">
-                    <img src="asset/room3.svg" alt="Room Image">
-                </div>
-                <div class="rate">
-                    <img src="asset/rating.svg" class="num" alt="Rating">
-                    <img src="asset/heart.svg" class="heart" alt="Favorite">
-                </div>
-                <div class="room-details1">
-                    <h3>Wilderness Club at Big Cedder</h3>
-                    <h4>24 October - 1 November</h4>
-                    <h5><span>$2016</span> / 6 nights</h5>
-                </div>
-            </div>
+    <section class="Special" id="specialContainer">
+        <h1>Special offer</h1>
     </section>
-    <section  class="section-three">
-        <div class="review">
-            <h1>Reviews</h1>
-        </div>
-                <div class="container">
-                    <img src="asset/Ellipse 6.svg" alt="">
-                </div>
-                    <div class="p">
-                        <p>
-                            I quickly find the right tour for me,<br>but i had a few question about the <br> hotel, i wrote to tech support and they<br>answered all  my question within an <br> hour. The vacation itself was perfect.<br> Thank you very much. I will come back<br>again and again.<Span class="fabs"
-                            > Jonnike Borg</Span> publisher
-                        </p>
-                    </div>
-            </div>
-            <div class="review">
-                <h1>Reviews</h1>
-            </div>
-                    <div class="container">
-                        <img src="asset/human2.svg" alt="">
-                    </div>
-                        <div class="p">
-                            <p>
-                                I quickly find the right tour for me,<br>but i had a few question about the <br> hotel, i wrote to tech support and they<br>answered all  my question within an <br> hour. The vacation itself was perfect.<br> Thank you very much. I will come back<br>again and again.<Span class="fabs"
-                                > Jonnike Borg</Span> publisher
-                            </p>
-                        </div>
-                </div>
-                <div class="review">
-                    <h1>Reviews</h1>
-                </div>
-                        <div class="container">
-                            <img src="asset/human3.svg" alt="">
-                        </div>
-                            <div class="p">
-                                <p>
-                                    I quickly find the right tour for me,<br>but i had a few question about the <br> hotel, i wrote to tech support and they<br>answered all  my question within an <br> hour. The vacation itself was perfect.<br> Thank you very much. I will come back<br>again and again.<Span class="fabs"
-                                    > Jonnike Borg</Span> publisher
-                                </p>
-                            </div>
-                    </div>
-    
-
+    <section class="section-three" id="reviewContainer">
+        <h1>Reviews</h1>
     </section>
-    <section>
-       <div  class="rct">
+    <section class="recent" id="recentContainer">
         <h1>Recent</h1>
-       </div>
-       <div class="recentt">
-        <img src="asset/Rectangle 17.svg" class="pic-recent" alt="Recent Image">
-       </div>
-    <div class="conn">
-        <div class="top-content">
-            <h4 class="date">May 23, 2022</h4>
-            <div class="right-content">
-                <div class="clock">
-                    <div class="vector-container">
-                        <img src="asset/Vector (1).svg" class="vec1" alt="Clock Icon">
-                        <img src="asset/Vector.svg" class="round-image" alt="Round Image">
-                    </div>
-                    <h4><span class="time">5 minute</span></h4>
-                </div>
-            </div>
-        </div>
-        <div class="tripp">
-            <h1>my trip to Athens</h1>
-        </div>
-        <div class="cityy">
-            <p>It would seem that in a city where<br> Theseus, Plato and Epicurus once<br> walked, the very idea of the subway is <br>alien to the city, but already.....</p>
-        </div>
-    </div>
-    <div class="recentt">
-        <img src="asset/recent2.svg" class="pic-recent" alt="Recent Image">
-       </div>
-    <div class="conn">
-        <div class="top-content">
-            <h4 class="date">May 23, 2022</h4>
-            <div class="right-content">
-                <div class="clock">
-                    <div class="vector-container">
-                        <img src="asset/Vector (1).svg" class="vec1" alt="Clock Icon">
-                        <img src="asset/Vector.svg" class="round-image" alt="Round Image">
-                    </div>
-                    <h4><span class="time">5 minute</span></h4>
-                </div>
-            </div>
-        </div>
-        <div class="tripp">
-            <h1>Vilnius resorts</h1>
-        </div>
-        <div class="cityy">
-            <p> I have not seen any resort in vilnius but,<br> There are wonderful peeople and pubs.</p>
-        </div>
-    </div>
-    
-    <div class="recentt">
-        <img src="asset/recent3.svg" class="pic-recent" alt="Recent Image">
-       </div>
-    <div class="conn">
-        <div class="top-content">
-            <h4 class="date">May 23, 2022</h4>
-            <div class="right-content">
-                <div class="clock">
-                    <div class="vector-container">
-                        <img src="asset/Vector (1).svg" class="vec1" alt="Clock Icon">
-                        <img src="asset/Vector.svg" class="round-image" alt="Round Image">
-                    </div>
-                    <h4><span class="time">5 minute</span></h4>
-                </div>
-            </div>
-        </div>
-        <div class="tripp">
-            <h2>Tips for fyling on a plane</h2>
-        </div>
-        <div class="cityy">
-            <p> If you have the fear of fyling, here's a <br> helpful trip: bringing your co-pilot so you can<br> take a nap while he steers the plane<br>for you.</p>
-        </div>
-    </div>
     </section>
     <footer class="footer">
         <div  class="title-section">
@@ -301,5 +129,7 @@
         </div>
     </footer>
 </main>
+<script src="script.js"></script>
 </body>
+
 </html>
