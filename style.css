@@ -445,10 +445,6 @@ font-weight: 300;
 .footer{
     background-color: #a3a3a3;
 }
-/* Basic styling for header */
-
-
-/* Hidden menu content */
 #navMenu {
     display: none;
     flex-direction: column;
