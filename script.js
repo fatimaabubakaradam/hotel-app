@@ -3,11 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const closeMenu = document.getElementById('closeMenu');
     const navMenu = document.getElementById('navMenu');
 
-    // Check if elements exist
     if (menuToggle && navMenu && closeMenu) {
-        // Toggle menu on click of menu icon
+        
         menuToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active'); // Show or hide the menu
+            navMenu.classList.toggle('active'); 
             menuToggle.classList.toggle('active'); // Increase the size of the hamburger
         });
 
