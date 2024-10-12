@@ -31,7 +31,7 @@ Welcome to the Hotel App project! This repository contains the mobile-only imple
 The Hotel App is a mobile-first platform designed to showcase the hotel's rooms, services, and amenities. Built with HTML, CSS, and JavaScript, it ensures smooth interaction and navigation, offering a streamlined experience for mobile users. The website is ideal for guests who want to browse and book their stay directly from their smartphones.
 
 ## Live Demo
-Check out the live demo of the project:  https://fatimaabubakaradam.github.io/hotel-website/
+Check out the live demo of the project:   https://fatimaabubakaradam.github.io/hotel-app/
 
 ## Features
 
