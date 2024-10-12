@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
             menuToggle.classList.toggle('active'); 
         });
 
-        // Close the menu when the close button is clicked
+        
         closeMenu.addEventListener('click', () => {
             navMenu.classList.remove('active'); // Hide the menu
             menuToggle.classList.remove('active'); // Revert the size of the hamburger
