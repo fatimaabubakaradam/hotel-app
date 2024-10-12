@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         
         closeMenu.addEventListener('click', () => {
-            navMenu.classList.remove('active'); // Hide the menu
-            menuToggle.classList.remove('active'); // Revert the size of the hamburger
+            navMenu.classList.remove('active'); 
+            menuToggle.classList.remove('active'); 
         });
     }
 });
