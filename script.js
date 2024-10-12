@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         menuToggle.addEventListener('click', () => {
             navMenu.classList.toggle('active'); 
-            menuToggle.classList.toggle('active'); // Increase the size of the hamburger
+            menuToggle.classList.toggle('active'); 
         });
 
         // Close the menu when the close button is clicked
