@@ -27,8 +27,9 @@ body {
 }
 
 .image-container .rec {
-    width: 450px;
-    height: 450px
+    display: block;  
+    width: 100%;     
+    height: auto;
 }
 
 .text-container {
@@ -42,13 +43,18 @@ body {
 }
 
 .title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.5;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.seaar{
+
 }
 
 .description {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.5;
     margin: 15px 0;
 }
@@ -59,7 +65,7 @@ body {
 
 padding-left: 50px;
 transform: translateY(-40%);
-color: red;
+color: #EE685F;
 }
 .icon-container1{
     transform: translateY(-420%);
@@ -68,19 +74,27 @@ color: red;
 .last{
     display: flex;
     justify-content: space-between;
-    transform: translateY(-150%);
+    transform: translateY(-100%);
     position: relative;
 }
-
-.section-two{
-    transform: translateY(-10%);
+.last h1{
+    font-size: 15px;
+    margin-right: 100px;
+    transform: translateY(70%);
 }
-.your{
-    transform: translateY(20%);
-    color: red;
+.last h1 span{
+    font-size: 10px;
+    color: #a3a3a3;
+}
+.section-content h1{
+    transform: translateY(100%);
+}
+.your h1{
+    transform: translateY(15%);
+    color: #EE685F;
 }
 .your span{
-    color: blue;
+    color: #2a90d9;
 }
 .where{
     margin-left: 10px;
@@ -124,9 +138,9 @@ color: red;
     right: 20px;
 }
 .section-two{
-    background-color: #a3a3a3;
+    background-color: #ebebeb;
     text-align: center;
-    transform: translateY(-15%);
+    transform: translateY(-25%);
 }
 h1, p {
     margin-bottom: 60px;
@@ -236,7 +250,7 @@ h2{
     margin-bottom: 30px;
 }
 .payy{
-    background-color: blue;
+    background-color:  #2a90d9;
 }
 
 .header {
@@ -265,10 +279,10 @@ h2{
     margin: 0; 
     font-size: 30px;
     font-weight: bold;
-    color: red;
+    color:  #EE685F;
 }
 .logo {
-    color: blue;
+    color:  #2a90d9;
 }
 .menu, .icon {
     width: 24px; 
@@ -286,7 +300,7 @@ h2{
 }
 
 .Special h1{
-    margin-left: 150px;
+    margin-left: 200px;
 }
 .num{
     margin-left: 50px;
@@ -299,13 +313,16 @@ h4 {
 }
 h5 span {
     font-weight: bold;
-    font-size: 1em;
-    color: blue;
+    font-size: 30px;
+    color:  #2a90d9;
 
+}
+.room-details1 h5{
+    color: #2a90d9;
 }
 .room-details1{
     margin-left: 60px;
-    transform: translateY(-80%);
+    transform: translateY(-70%);
 }
 .card {
     border: 10px ; 
@@ -332,9 +349,15 @@ h5 span {
 .room-details1 h5 {
     margin: 5px 0;
 }
-
+.red{
+    display: flex;
+    transform: translateY(-200%);
+}
+.red-ru{
+    margin-left: 20px;
+}
 .room-details1 h5 span {
-    color: #4CAF50; 
+    color:#2a90d9;
     font-weight: bold;
 }
 .time{
@@ -363,18 +386,12 @@ h5 span {
 }
 
 .vector-container {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    margin-right: 10px; 
+
 }
 .vec1 {
+    transform: translateX(80%);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    width: 12px; 
-    height: 12px;
+    margin-top: 10px;
 }
 
 .round-image {
@@ -382,24 +399,34 @@ h5 span {
     height: 30px;
     border-radius: 50%; 
 }
-
 .time {
     font-size: 14px;
     margin-left: 5px; 
-    color: #555; 
+    color: #2a90d9; 
 }
 .tripp h1 {
-    font-size: 24px;
+    font-size: 27px;
     margin-bottom: 10px;
     color: #333;
 }
+.recent{
+    transform: translateY(-5%);
+}
+
+.recent h1{
+    margin-left: 15px;
+}
+.recent h2{
+    margin-left: 150px;
+    font-size: 30px;
+}
 .cityy p {
-    font-size: 16px;
+    font-size: 26px;
     line-height: 1.6;
     color: #666;
 }
 .pic-recent{
-    margin: 10px;
+    margin-left: 70px;
     width: 450px;
 }
 .rct h1{
@@ -413,45 +440,97 @@ font-weight: 300;
 .title-section{
     font-size: 30px;
 }
-.Vectt{
-    margin-left: -40px;
-    margin-bottom: 15px;
+.Vectt {
+    margin-left: 300px;
+    transform: translateY(-500%);
+}
+.Vectt img{
+    width: 100%;
 }
 
 .aroww{
-    margin-left: -45px;
+    margin-left: 550px; 
+    width: 100%;
+    transform: translateY(-130%);
+}
+.email {
+    width: 100%; 
+}
+
+.email img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.email .aroww, 
+.email .Vectt {
+    width: auto; 
+    
+}
+
+.fabs{
+    color: black;
+    font-weight: bolder;
+    font-style: initial;
 }
 .email{
-
-    width: 600px;
+font-size: 10px;
 }
 .section-three{
     text-align: center;
+    transform: translateY(-10%);
 }
 
-
+.page-title h1{
+    font-size: 20px;
+}
 .container img {
     max-width: 100px; 
     margin: 20px 0;
 }
 
 .p {
-    max-width: 400px; 
-    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6; 
+    margin: 0; 
+   
 }
 .review h1{
     font-size: 40px;
 }
-.footer{
-    background-color: #a3a3a3;
+.line1{
+        width: 100%; 
+        
 }
+.line1 img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+        
+    }
+
+.footer{
+    background-color:  #ebebeb;
+    transform: translateY(-10%);
+}
+
 #navMenu {
     display: none;
-    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    height: 100%;
+    width: 400px; 
     background-color: #fff;
     padding: 20px;
-    width: 1200px;
-    height: 500px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+#navMenu.active {
+    left: 0; 
+    display: block;
 }
 
 #navMenu ul {
@@ -467,23 +546,140 @@ font-weight: 300;
 #navMenu .social-icons img {
     margin-right: 10px;
 }
-#navMenu.active {
-    display: flex;
+
+#closeMenu {
+    /* font-size: 30px;
+    cursor: pointer;
+    display: block; */
 }
 
-/* Style for the close icon (×) */
-#closeMenu {
-    font-size: 30px;
-    cursor: pointer;
-    /* align-self: flex-end;
-    margin-bottom: 20px; */
-}
 #menuToggle {
-    width: 40px; 
-    height: 40px; 
-    cursor: pointer; 
+    /* width: 40px;
+    height: 40px;
+    cursor: pointer; */
 }
+
 #menuToggle.active {
     width: 100px;
     height: 100px;
+}
+#specialContainer{
+    transform: translateY(-10%);
+}
+#specialContainer h1{
+
+}
+/* @media only screen and (min-width: 375px){
+    .section-two{
+        transform: translateY(-16%);
+    }
+    .rec{
+        width: 100vw;
+    }
+    #specialContainer{
+        transform: translateY(-22%);
+    }
+    .pic-recent{
+        max-width: 300px;
+        transform: translateX(-10%);
+    }
+}  
+@media only screen and (min-width: 414px){
+    .section-two{
+        transform: translateY(-28%);
+    }
+    .rec{
+        width: 100vw;
+    }
+    #specialContainer{
+        transform: translateY(-30%);
+    }
+    .Special h1 {
+        margin-left: 120px;
+    }
+}
+@media only screen and (min-width: 390px){
+    .section-two{
+        transform: translateY(-26%);
+    }
+    .rec{
+        width: 100vw;
+    }
+    .Special h1 {
+        margin-left: 100px;
+    }
+}   
+@media only screen and (min-width: 390px){
+    .section-two{
+        transform: translateY(-28%);
+    }
+}   
+@media only screen and (min-width: 360px){
+    .section-two{
+        transform: translateY(-22%);
+    }
+    .rec{
+        width: 100vw;
+    }
+    #specialContainer{
+        transform: translateY(-20%);
+    }
+    .Special h1{
+        margin-left: 100px;
+    }
+    .pic-recent{
+        max-width: 320px;
+        transform: translateX(-15%);
+    }
+    .recent h1{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 412px){
+    .section-two{
+        transform: translateY(-28%);
+    }
+    .rec{
+        width: 100vw;
+    }
+}
+@media only screen and (min-width: 344px){
+    .section-two{
+        transform: translateY(-30%);
+    }
+    .rec{
+        width: 100vw;
+    }
+    .text-container{
+    margin-top: -43px;
+    }
+    #specialContainer{
+        transform: translateY(-30%);
+    }
+    .Special h1{
+        margin-left: 100px;
+    }
+    .pic-recent{
+        max-width: 320px;
+        transform: translateX(-15%);
+}
+}
+.recent h1{
+    margin-right: 100px;
+}
+@media only screen and (min-width: 360px){
+    .section-two{
+        transform: translateY(-23%);
+    }
+    .rec{
+        width: 100vw;
+    }
+} */
+@media only screen and (min-width: 600px){
+    .section-two{
+        transform: translateY(-12%);
+    }
+    .rec{
+        width: 100vw;
+    }
 }
