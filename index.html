@@ -10,7 +10,7 @@
     <main>
     <header class="header">
         <div class="menu-container">
-            <img onclick=openMenu() src="asset/menu.svg" class="menu" id="menuToggle" alt="Menu">
+            <img onclick=openMenu() src="asset/menu.svg" class="menu" alt="Menu">
         </div>
         <div class="head">
             <h1><span class="logo">YOUR</span> .LOGO</h1>
@@ -18,9 +18,10 @@
         <div class="icon-container">
             <img src="asset/icon (2).svg" class="icon" alt="Icon">
         </div>  
-    </header>     
+    </header>    
+    <!-- Navigation menu -->
     <nav id="navMenu" class="nav-menu">
-        <p id="menuClose" onclick=closeMenu()>X</p>
+        <p onclick="closeMenu()">X</p> 
         <div class="head1">
             <h1><span class="logo">YOUR</span> .LOGO</h1>
         </div>
@@ -42,7 +43,6 @@
             <img src="asset/Telegram_black.svg" alt="Telegram">
         </div>
     </nav>
-
     <section class="hero">
         <div class="image-container">
             <img src="asset/Rectangle 5 (2).svg" class="rec" alt="">
