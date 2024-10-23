@@ -7,70 +7,62 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-         <header class="header">
-            <div class="menu-container">
-                <img src="asset/menu.svg" class="menu" id="menuToggle" alt="Menu">
-            </div>
-            <div class="head">
-                <h1><span class="logo">YOUR</span> .LOGO</h1>
-            </div>
-            <div class="icon-container">
-                <img src="asset/icon (2).svg" class="icon" alt="Icon">
-            </div>  
-        </header> 
-    
-    <!-- Hidden Menu -->
-    <!-- Menu toggle icon (hamburger menu) -->
+    <main>
+    <header class="header">
+        <div class="menu-container">
+            <img onclick=openMenu() src="asset/menu.svg" class="menu" id="menuToggle" alt="Menu">
+        </div>
+        <div class="head">
+            <h1><span class="logo">YOUR</span> .LOGO</h1>
+        </div>
+        <div class="icon-container">
+            <img src="asset/icon (2).svg" class="icon" alt="Icon">
+        </div>  
+    </header>     
+    <nav id="navMenu" class="nav-menu">
+        <p id="menuClose" onclick=closeMenu()>X</p>
+        <div class="head1">
+            <h1><span class="logo">YOUR</span> .LOGO</h1>
+        </div>
+        <ul class="list">
+            <li>Last minute</li>
+            <li>Blog</li>
+            <li>About us</li>
+            <li>Contacts</li>
+        </ul>
+        <div class="red">
+            <img src="asset/$.svg" alt="">
+            <img src="asset/RU.svg" class="red-ru" alt="">
+        </div>
+        <div class="social-icons">
+            <img src="asset/Phone_black.svg" alt="Phone">
+            <img src="asset/Facebook_black.svg" alt="Facebook">
+            <img src="asset/Youtube.svg" alt="YouTube">
+            <img src="asset/Instagram_black.svg" alt="Instagram">
+            <img src="asset/Telegram_black.svg" alt="Telegram">
+        </div>
+    </nav>
 
-
-<!-- Navigation menu -->
-<nav id="navMenu" class="nav-menu">
-    <img src="asset/menu (3).svg" class="close-menu"  id="myCloseMenu" alt="Close Icon">
-    <div class="head1">
-        <h1><span class="logo">YOUR</span> .LOGO</h1>
-    </div>
-    <ul class="list">
-        <li>Last minute</li>
-        <li>Blog</li>
-        <li>About us</li>
-        <li>Contacts</li>
-    </ul>
-    <div class="red">
-        <img src="asset/$.svg" alt="">
-        <img src="asset/RU.svg" class="red-ru" alt="">
-    </div>
-    <div class="social-icons">
-        <img src="asset/Phone_black.svg" alt="Phone">
-        <img src="asset/Facebook_black.svg" alt="Facebook">
-        <img src="asset/Youtube.svg" alt="YouTube">
-        <img src="asset/Instagram_black.svg" alt="Instagram">
-        <img src="asset/Telegram_black.svg" alt="Telegram">
-    </div>
-</nav>
-
-    
-    </header>
-    
     <section class="hero">
         <div class="image-container">
             <img src="asset/Rectangle 5 (2).svg" class="rec" alt="">
             <div class="text-container">
-                <div class="title">Find an apartment<br>for your vacation</div>
-                <div class="description">
-                    We have several thousand<br>apartments for every taste<br>in every corner of the globe
-                </div >
-             <div class="search">
-                <img src="asset/Rectangle 7 (1).svg"  class="seaar" alt="">
+                    <div class="title">Find an apartment<br>for your vacation</div>
+                    <div class="description">
+                        We have several thousand<br>apartments for every taste<br>in every corner of the globe
+                    </div >
+                <div class="search">
+                    <img src="asset/Rectangle 7 (1).svg"  class="seaar" alt="">
+                </div>
+                <div  class="last">
+                    <img src="asset/icon.svg"  class="where" alt="">
+                    <h1>where <br> <span>search destinator</span></h1>
+                    <img src="asset/button.svg" class="found" alt="">
+                </div>
             </div>
-            <div  class="last">
-                <img src="asset/icon.svg"  class="where" alt="">
-                <h1>where <br> <span>search destinator</span></h1>
-                <img src="asset/button.svg" class="found" alt="">
-            </div>
-        </div>
     </section>
-    <section class="section-two" id="sectionContainer">
-        <!-- Content will be added here dynamically -->
+
+    <section class="section-two" id="sectionContainer">        
     </section>
     
    
@@ -82,9 +74,7 @@
     </section>
     <section class="recent" id="recentContainer">
         <h2>Recent posts</h2>
-    </section>
-
-    
+    </section>    
     <footer class="footer">
         <div  class="title-section">
             Title of section
@@ -142,6 +132,7 @@
     </footer>
 </main>
 <script src="script.js"></script>
+<script src="sidemenu.js"></script>
 </body>
 
 </html>

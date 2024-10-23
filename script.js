@@ -1,30 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const menuToggle = document.getElementById('menuToggle');
-    const closeMenu = document.getElementById('myCloseMenu');
-    const navMenu = document.getElementById('navMenu');
-
-    console.log(menuToggle, closeMenu, navMenu);
-
-    if (menuToggle && navMenu && closeMenu) {
-        
-        menuToggle.addEventListener('click', () => {
-            console.log('Menu opened'); 
-            navMenu.classList.add('active'); 
-        });
-    }
-
-    
-        closeMenu.addEventListener('click', () => {
-            console.log('Menu closed'); 
-            navMenu.classList.remove('active');
-        });
-
-  
-});
-
-
-
-
 const sections = [
     {
         title: "Why choose us",
