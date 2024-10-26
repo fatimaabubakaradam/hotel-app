@@ -10,17 +10,53 @@
     <main>
     <header class="header">
         <div class="menu-container">
+            <div class="hamburger" id="hamburger">
+                <div class="line">Last minute </div>
+                <div class="line">Blog</div>
+                <div class="line">About us</div>
+              </div>
+              <nav class="nav" id="nav">
+                <div class="head1">
+                    <h1><span class="logo">YOUR</span> .LOGO</h1>
+                </div>
+                <ul>
+                  <li><a>Last minute </a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>About us</a></li>
+                  <li><a>Contacts</a></li>
+                </ul>
+                <div class="red">
+                    <img src="asset/$.svg" alt="">
+                    <img src="asset/RU.svg" class="red-ru" alt="">
+                </div>
+                <div class="social-icons">
+                    <img src="asset/Phone_black.svg" alt="Phone">
+                    <img src="asset/Facebook_black.svg" alt="Facebook">
+                    <img src="asset/Youtube.svg" alt="YouTube">
+                    <img src="asset/Instagram_black.svg" alt="Instagram">
+                    <img src="asset/Telegram_black.svg" alt="Telegram">
+                </div>
+              </nav>
+            </div>
+            <div class="head">
+                <h1><span class="logo">YOUR</span> .LOGO</h1>
+            </div>
+             <div class="icon-container">
+            <img src="asset/icon (2).svg" class="icon" alt="Icon">
+        </div> 
+           
+      
+        <!-- <div class="menu-container">
             <img onclick=openMenu() src="asset/menu.svg" class="menu" alt="Menu">
         </div>
         <div class="head">
             <h1><span class="logo">YOUR</span> .LOGO</h1>
         </div>
-        <div class="icon-container">
-            <img src="asset/icon (2).svg" class="icon" alt="Icon">
-        </div>  
+       
+          -->
     </header>    
     <!-- Navigation menu -->
-    <nav id="navMenu" class="nav-menu">
+    <!-- <nav id="navMenu" class="nav-menu">
         <p onclick="closeMenu()">X</p> 
         <div class="head1">
             <h1><span class="logo">YOUR</span> .LOGO</h1>
@@ -42,13 +78,13 @@
             <img src="asset/Instagram_black.svg" alt="Instagram">
             <img src="asset/Telegram_black.svg" alt="Telegram">
         </div>
-    </nav>
+    </nav> -->
     <section class="hero">
         <div class="image-container">
             <img src="asset/Rectangle 5 (2).svg" class="rec" alt="">
             <div class="text-container">
-                    <div class="title">Find an apartment<br>for your vacation</div>
-                    <div class="description">
+                    <div class="title" id="title">Find an apartment<br>for your vacation</div>
+                    <div class="description" id="description">
                         We have several thousand<br>apartments for every taste<br>in every corner of the globe
                     </div >
                 <div class="search">
@@ -108,8 +144,8 @@
             <div class="email-container">
                 <div class="email">
                     <img src="asset/Rectangle 9 (3).svg" alt="">
-                    <img src="asset/arrowf.svg" class="aroww" alt="">
-                    <img src="asset/Vector@2x.svg"  class="Vectt" alt="">
+                    <img src="asset/arrowf.svg" class="aroww" id="arrow" alt="">
+                    <img src="asset/Vector@2x.svg"  class="Vectt" id="vect" alt="">
                     <div class="line1">
                         <img src="asset/Line 9.svg" alt="">
                     </div>
