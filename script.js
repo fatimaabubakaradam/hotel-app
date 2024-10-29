@@ -1,3 +1,18 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.getElementById('menuToggle');
+    const closeMenu = document.getElementById('closeMenu');
+    const navMenu = document.getElementById('navMenu');
+
+    if (menuToggle && navMenu && closeMenu) {
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            navMenu.classList.remove('active');
+        });
+    }
+});
 const sections = [
     {
         title: "Why choose us",
@@ -54,9 +69,10 @@ const renderSections = sections => {
             </div>
         </div>
         `;
-        container.innerHTML += sectionHTML;
+        container.innerHTML += sectionHTML; 
     });
-}
+};
+
 
 renderSections(sections);
 const specialOffers = [
@@ -92,10 +108,11 @@ const specialOffers = [
     }
 ];
 
+
 const renderSpecialOffers = offers => {
     const container = document.getElementById('specialContainer');
     offers.forEach(offer => {
-        container.innerHTML += `
+        const offerHTML = `
             <div class="card">
                 <div class="room1">
                     <img src="${offer.roomImage}" alt="${offer.roomAlt}">
@@ -111,11 +128,13 @@ const renderSpecialOffers = offers => {
                 </div>
             </div>
         `;
+        container.innerHTML += offerHTML;
     });
 };
 
 
 renderSpecialOffers(specialOffers);
+  
 
 const reviews = [
     {
@@ -141,31 +160,39 @@ const reviews = [
     }
 ];
 
+
 const renderReviews = reviews => {
     const container = document.getElementById('reviewContainer');
+
+    
+    container.innerHTML = `<h1>Reviews</h1>`;
+
+    
     reviews.forEach(review => {
-        container.innerHTML += `
-        <div class="review">
-            <div class="container">
-                <img src="${review.image}" alt="${review.altText}">
+        const reviewHTML = `
+            <div class="review">
+                <div class="container">
+                    <img src="${review.image}" alt="${review.altText}">
+                </div>
+                <div class="p">
+                    <p>
+                        ${review.reviewText}<br>
+                        <span class="fabs">${review.reviewer}</span> ${review.profession}
+                    </p>
+                </div>
             </div>
-            <div class="p">
-                <p>
-                    ${review.reviewText}<br>
-                    <span class="fabs">${review.reviewer}</span> ${review.profession}
-                </p>
-            </div>
-        </div>
         `;
+        container.innerHTML += reviewHTML;
     });
 
     
     container.innerHTML += `
         <div>
-            <img src="asset/btn.svg" alt="">
+            <img src="asset/btn.svg" class="m-review" alt="">
         </div>
     `;
 }
+
 
 renderReviews(reviews);
 const posts = [
@@ -192,38 +219,44 @@ const posts = [
     }
 ];
 
-const recentContainer = document.getElementById('recentContainer');
-
-
-posts.forEach(post => {
-    const recentDiv = document.createElement('div');
-    recentDiv.classList.add('recentt');
-    recentDiv.innerHTML = `<img src="${post.imgSrc}" class="pic-recent" alt="Recent Image">`;
-
-    const contentDiv = document.createElement('div');
-    contentDiv.classList.add('conn');
-    contentDiv.innerHTML = `
-        <div class="top-content">
-            <h4 class="date">${post.date}</h4>
-            <div class="right-content">
-                <div class="clock">
-                    <div class="vector-container">
-                        <img src="asset/Vector (1).svg" class="vec1" alt="Clock Icon">
-                        <img src="asset/Vector.svg" class="round-image" alt="Round Image">
+const renderPosts = (posts) => {
+    const recentContainer = document.getElementById('recentContainer');
+    posts.forEach(post => {
+        
+        const postHTML = `
+            <div class="recentt">
+                <img src="${post.imgSrc}" class="pic-recent" alt="Recent Image">
+                <div class="conn">
+                    <div class="top-content">
+                        <h4 class="date">${post.date}</h4>
+                        <div class="right-content">
+                            <div class="clock">
+                                <div class="vector-container">
+                                    <img src="asset/Vector (1).svg" class="vec1" alt="Clock Icon">
+                                    <img src="asset/Vector.svg" class="round-image" alt="Round Image">
+                                </div>
+                                <h4><span class="time">${post.time}</span></h4>
+                            </div>
+                        </div>
                     </div>
-                    <h4><span class="time">${post.time}</span></h4>
+                    <div class="tripp">
+                        <h1>${post.title}</h1>
+                    </div>
+                    <div class="cityy">
+                        <p>${post.description}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="tripp">
-            <h1>${post.title}</h1>
-        </div>
-        <div class="cityy">
-            <p>${post.description}</p>
-        </div>
-    `;
+        `;
+        
+        recentContainer.innerHTML += postHTML;
+    });
+};
 
-    recentContainer.appendChild(recentDiv);
-    recentContainer.appendChild(contentDiv);
-});
+
+renderPosts(posts);
+
+
+  
+
 

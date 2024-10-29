@@ -3,114 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-    <header class="header">
-        <div class="menu-container">
-            <div class="hamburger" id="hamburger">
-                <div class="line">Last minute </div>
-                <div class="line">Blog</div>
-                <div class="line">About us</div>
-              </div>
-              <nav class="nav" id="nav">
-                <div class="head1">
-                    <h1><span class="logo">YOUR</span> .LOGO</h1>
-                </div>
-                <ul>
-                  <li><a>Last minute </a></li>
-                  <li><a>Blog</a></li>
-                  <li><a>About us</a></li>
-                  <li><a>Contacts</a></li>
-                </ul>
-                <div class="red">
-                    <img src="asset/$.svg" alt="">
-                    <img src="asset/RU.svg" class="red-ru" alt="">
-                </div>
-                <div class="social-icons">
-                    <img src="asset/Phone_black.svg" alt="Phone">
-                    <img src="asset/Facebook_black.svg" alt="Facebook">
-                    <img src="asset/Youtube.svg" alt="YouTube">
-                    <img src="asset/Instagram_black.svg" alt="Instagram">
-                    <img src="asset/Telegram_black.svg" alt="Telegram">
-                </div>
-              </nav>
+    <header class="header grid">
+        <div id="menuToggle" class="menu-toggle"><img src="asset/menu.svg" alt=""></div>
+        <nav id="navMenu" class="nav-menu grid">
+            <div class="logo">
+                <div id="closeMenu" class="close-menu"><img src="asset/menu (3).svg" alt=""></div>
+                <h1 id="logo">Your<span>.logo</span></h1>
+                <img src="asset/icon (2).svg" alt="" id="nav-icon"> 
             </div>
-            <div class="head">
-                <h1><span class="logo">YOUR</span> .LOGO</h1>
+            <ul>
+                <li id="gap"><a>Last Minute Deals</a></li>
+                <li id="gap"><a>Blog</a></li>
+                <li id="gap"><a>About us</a></li>
+                <li id="gap"><a>Contacts</a></li>
+            </ul>
+            <div class="mon-lan">
+                <img src="asset/$.svg" alt="" id="money">
+                <img src="asset/RU.svg" alt="" id="language">
             </div>
-             <div class="icon-container">
-            <img src="asset/icon (2).svg" class="icon" alt="Icon">
-        </div> 
-           
-      
-        <!-- <div class="menu-container">
-            <img onclick=openMenu() src="asset/menu.svg" class="menu" alt="Menu">
-        </div>
-        <div class="head">
-            <h1><span class="logo">YOUR</span> .LOGO</h1>
-        </div>
-       
-          -->
-    </header>    
-    <!-- Navigation menu -->
-    <!-- <nav id="navMenu" class="nav-menu">
-        <p onclick="closeMenu()">X</p> 
-        <div class="head1">
-            <h1><span class="logo">YOUR</span> .LOGO</h1>
-        </div>
-        <ul class="list">
-            <li>Last minute</li>
-            <li>Blog</li>
-            <li>About us</li>
-            <li>Contacts</li>
-        </ul>
-        <div class="red">
-            <img src="asset/$.svg" alt="">
-            <img src="asset/RU.svg" class="red-ru" alt="">
-        </div>
-        <div class="social-icons">
-            <img src="asset/Phone_black.svg" alt="Phone">
-            <img src="asset/Facebook_black.svg" alt="Facebook">
-            <img src="asset/Youtube.svg" alt="YouTube">
-            <img src="asset/Instagram_black.svg" alt="Instagram">
-            <img src="asset/Telegram_black.svg" alt="Telegram">
-        </div>
-    </nav> -->
+            <div class="links" id="social">
+                <img src="asset/Phone_black.svg" alt="" id="phone">
+                <img src="asset/Facebook_black.svg" alt="" id="Facebook">
+                <img src="asset/Youtube.svg" alt="" id="ytube">
+                <img src="asset/Instagram_black.svg" alt="" id="inst">
+                <img src="asset/Telegram_black.svg" alt="" id="tele">
+            </div>
+        </nav>
+        <h1>Your<span>.logo</span></h1>
+        <img src="asset/icon (2).svg" alt="" id="icon">
+    </header>
     <section class="hero">
         <div class="image-container">
-            <img src="asset/Rectangle 5 (2).svg" class="rec" alt="">
             <div class="text-container">
-                    <div class="title" id="title">Find an apartment<br>for your vacation</div>
-                    <div class="description" id="description">
-                        We have several thousand<br>apartments for every taste<br>in every corner of the globe
-                    </div >
-                <div class="search">
-                    <img src="asset/Rectangle 7 (1).svg"  class="seaar" alt="">
-                </div>
-                <div  class="last">
-                    <img src="asset/icon.svg"  class="where" alt="">
-                    <h1>where <br> <span>search destinator</span></h1>
-                    <img src="asset/button.svg" class="found" alt="">
-                </div>
-            </div>
+                <div class="title">Find an apartment<br>for your vacation</div>
+                <div class="description">
+                    We have several thousand<br>apartments for every taste<br>in every corner of the globe
+                </div >
+           <div class="box">
+            <img src="asset/icon.svg" alt="" class="where1">
+            <h3>Where</h3>
+            <h4>Search Destination</h4>
+            <img src="asset/button.svg" class="search" alt="">
+           </div>
+            
+        </div>
     </section>
-
-    <section class="section-two" id="sectionContainer">        
+    <section class="section-two" id="sectionContainer">
+        
     </section>
-    
-   
     <section class="Special" id="specialContainer">
         <h1>Special offers</h1>
     </section>
-    <section class="section-three" id="reviewContainer">
-        <h1>Reviews</h1>
+    <section class="reviews" id="reviewContainer">
+        
     </section>
-    <section class="recent" id="recentContainer">
-        <h2>Recent posts</h2>
-    </section>    
+    <section class="recent-posts" id="recentContainer">
+        <h1>Recent Posts</h1>
+    </section>
+    
+
+    
     <footer class="footer">
         <div  class="title-section">
             Title of section
@@ -139,13 +95,13 @@
         <div class="title-section">
             suscribe to news letter
         </div>
-        <div class="page-title">
+        <div class="page">
             <h1>your email </h1>
             <div class="email-container">
                 <div class="email">
                     <img src="asset/Rectangle 9 (3).svg" alt="">
-                    <img src="asset/arrowf.svg" class="aroww" id="arrow" alt="">
-                    <img src="asset/Vector@2x.svg"  class="Vectt" id="vect" alt="">
+                    <img src="asset/arrowf.svg" class="aroww" alt="">
+                    <img src="asset/Vector@2x.svg"  class="Vectt" alt="">
                     <div class="line1">
                         <img src="asset/Line 9.svg" alt="">
                     </div>
@@ -165,10 +121,8 @@
         <div class="last">
             <p>Desing by <span class="del">Delvig</span></p>
         </div>
-    </footer>
-</main>
-<script src="script.js"></script>
-<script src="sidemenu.js"></script>
-</body>
+    </footer>  
 
+    <script src="script.js"></script>
+</body>
 </html>
