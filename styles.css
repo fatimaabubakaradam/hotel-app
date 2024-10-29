@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: "Montserrat";
     overflow-x: hidden;
     
 }
@@ -316,6 +316,7 @@ margin-left: 10px;
     display: flex;
     justify-content: space-between;
 }
+
 #specialContainer h1{
     margin-left: 150px;
     margin-top: 20px;
