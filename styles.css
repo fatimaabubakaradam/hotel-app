@@ -1,0 +1,495 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    overflow-x: hidden;
+    
+}
+
+body {
+    background-color: #FFFF;
+}
+.hero {
+    background: url(asset/Rectangle\ 5\ \(2\).svg) no-repeat center center; 
+    background-size: cover; 
+    width: 100vw; 
+    overflow: hidden; 
+    height: 80vw;
+}
+#first {
+display: flex;
+transform: translateY(-80%);
+}
+#first h1{
+    font-size: 40px;
+    overflow-y: hidden;
+    margin-left: 100px;
+}
+#first h1 span{
+    font-size: 40px;
+    overflow-y: hidden;
+}
+.title{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    line-height: 39px;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #262729;
+}
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    line-height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #262729;
+}
+.box{
+    width: 328px;
+    height: 70px;
+    background-color:  #ffff;
+    border-radius: 36px;
+    border-color: #d6d6d6;
+    border: 1px solid;
+    overflow-y: hidden
+;
+margin-top: 60px;
+}
+#sectionContainer{
+    transform: translateY(1%);
+}
+.box h3{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #303038;
+    margin-left: 50px;
+    margin-top:-15px;
+    margin-bottom: 10px;
+}
+.box h4{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A3A3A3;
+    margin-left: 50px;
+    margin-top:-15px;
+}
+.where1{
+transform: translateY(70%);
+margin-left: 10px;
+}
+.search{
+    transform: translateY(-110%);
+    margin-left: 250px;
+}
+.header {
+    background-color:white ;
+    padding: 15px 7px 15px 7px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    max-width: 360px;
+    margin-left: 10px;
+}
+#icon {
+    grid-row: 1;
+    margin-left: 100px;
+}
+.logo {
+    display: flex;
+}
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header {
+    margin-top: 20px;
+}
+.header h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+    margin-left: 60px;
+    grid-column: 1;
+    grid-row: 1;
+}
+.header h1 span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #EE685F;
+    }
+.menu-toggle {
+    display: block;
+    border: none;
+    background-color:white ;
+    margin-right: 210px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.nav-menu {
+    display: none;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    max-width: 330px; 
+    height: 100vh; 
+    background-color: #ffff;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+}
+
+#nav-icon {
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.nav-menu.active {
+    transform: translateX(0);
+    display: flex;
+    gap: 8px;
+}
+.nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    list-style: none;
+    
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+#gap {
+    margin-top: 20px;
+    
+}
+.close-menu {
+    display: block;
+    border: none;
+    background-color:white ;
+    font-size: 50px;
+    margin-top: -5px;
+}
+.links {
+    margin-top: 130px;
+}
+#phone{
+    margin-left: 10px;
+}
+#Facebook{
+    margin-left: 5px;
+}
+#ytube{
+    margin-left: 5px;
+}
+#inst{
+    margin-left: 5px;
+}
+#tele{
+    margin-left: 5px;
+}
+.mon-lan {
+    margin-top: 10px;
+}
+#language {
+    margin-left: 15px;
+}
+
+.section-two{
+    background-color: #ebebeb;
+    text-align: center;
+    transform: translateY(1%);
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+    
+}
+.container1 {
+    position: relative;
+    display: inline-block;
+    width: 50px; 
+    height: 50px; 
+    margin-top: 10px;
+}
+
+.Ellipse {
+    width: 100%; 
+    height: 100%;
+    display: block;
+}
+
+.Support2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px; 
+    height: 24px; 
+}
+.section-content h1{
+    font-size: 20px;
+    margin-top: 29px;
+}
+.section-content p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#specialContainer{
+    margin-top: 30px;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-700%);
+}
+.room1 img {
+    align-items: center;
+    margin-left: 10px;
+    border: 30px solid #ffffff48;
+}
+.room-details1 h5{
+    color: #2a90d9;
+}
+.room-details1{
+    margin-left: 60px;
+    transform: translateY(-70%);
+}
+.card {
+    border: 10px ; 
+    border-radius: 10px;
+    padding: 10px; 
+    width: 400px; 
+    margin: 20px auto; 
+    background-color: #f8f5f5f4; 
+}
+
+.room1 img {
+    width: 100%; 
+    border-radius: 10px; 
+}
+
+.rate {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.room-details1 h3, 
+.room-details1 h4, 
+.room-details1 h5 {
+    margin: 5px 0;
+}
+.red{
+    display: flex;
+    transform: translateY(-200%);
+}
+.red-ru{
+    margin-left: 20px;
+}
+.room-details1 h5 span {
+    color:#2a90d9;
+    font-weight: bold;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+
+#specialContainer h1{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.num{
+    margin-left: 30px;
+}
+.heart{
+    margin-right: 30px;
+}
+.container img {
+    max-width: 100px; 
+    margin: 20px 0;
+    margin-left: 200px;
+}
+
+.p {
+    text-align: justify;
+    line-height: 1.6; 
+    margin: 0; 
+
+}
+.reviews h1{
+    font-size: 30px;
+
+    margin-left: 170px;
+}
+.fabs{
+    color: black;
+    font-weight: bolder;
+    font-style: initial;
+}
+
+#reviewContainer{
+    margin-top: 20px;
+}
+.m-review{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.recent-posts h1{
+    margin-left: 150px;
+    font-size: 30px;
+}
+.recent h2{
+    margin-left: 150px;
+    font-size: 30px;
+}
+.cityy p {
+    font-size: 26px;
+    line-height: 1.6;
+    color: #666;
+}
+.pic-recent{
+    margin: 10px;
+    width: 450px;
+}
+.rct h1{
+    margin-left: 160px;
+    font-size: 40px;}
+    .vec1 {
+        transform: translateX(80%);
+        position: absolute;
+        margin-top: 10px;
+    }
+    
+    .round-image {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%; 
+    }
+    .time {
+        font-size: 14px;
+        margin-left: 5px; 
+        color: #2a90d9; 
+    }
+    .top-content {
+        display: flex;
+        justify-content: space-between;                                                               
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .date {
+        font-size: 14px;
+        color: #333; 
+    }
+    .clock {
+        display: flex;
+        align-items: center;
+    }
+    .time{
+        display: flex;
+        justify-content: space-between;
+    }
+    .conn {
+        max-width: 600px;
+        margin: 0 auto; 
+        padding: 5px;
+    }
+.recentt h1{
+    margin-left: 150px;
+
+}
+#recentContainer{
+margin-top: 30px;
+}
+.tripp h1{
+
+    margin-left: 5px;
+}
+.title-page h1{
+    font-size: 10px;
+    font-weight: 300;
+    }
+    .title-section{
+        font-size: 30px;
+    }
+    .Vectt {
+        margin-left: 450px;
+        transform: translateY(-500%);
+    }
+    .Vectt img{
+        width: 100%;
+    }
+    
+    .aroww{
+        margin-left: 440px; 
+        transform: translateY(-130%);
+    }
+    .email {
+        width: 100%; 
+    }
+    
+    .email img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+    }
+    
+    .email .aroww, 
+    .email .Vectt {
+        width: auto; 
+        
+    }
+    .line1{
+        width: 100%;        
+}
+.line1 img {
+        width: 100%; 
+        height: auto; 
+        display: block; 
+        
+    }
+
+.footer{
+    background-color:  #ebebeb;
+    margin-top: 30px;
+}
+.title-section{
+    margin-top: 30px;
+}
+.page-title{
+    margin-top: 20px;
+}
+.page{
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+.your{
+    color: #2A90D9;
+}
+.yourll{
+    color: #EE685F;
+}
